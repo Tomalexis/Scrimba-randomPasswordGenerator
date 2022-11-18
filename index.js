@@ -17,11 +17,15 @@ function generatePasswords() {
 }
 
 function copyFirstText() {
+    document.getElementById('first-password').style.backgroundColor = 'lightgray';
+    document.getElementById('first-password').style.color = '#6b7180';
     let firstPasswordContent = firstPasswordEl.innerText;
     navigator.clipboard.writeText(firstPasswordContent);
 }
 
 function copySecondText() {
+    document.getElementById('second-password').style.backgroundColor = 'lightgray';
+    document.getElementById('second-password').style.color = '#6b7180';
     let secondPasswordContent = secondPasswordEl.innerText;
     navigator.clipboard.writeText(secondPasswordContent);
 }
