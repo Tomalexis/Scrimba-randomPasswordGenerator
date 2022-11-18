@@ -14,6 +14,11 @@ function generatePasswords() {
     }
     firstPasswordEl.textContent = randomize()
     secondPasswordEl.textContent = randomize()
+    
+    document.getElementById('first-password').style.backgroundColor = '#273549';
+    document.getElementById('first-password').style.color = '#14B981';
+    document.getElementById('second-password').style.backgroundColor = '#273549';
+    document.getElementById('second-password').style.color = '#14B981';
 }
 
 function copyFirstText() {
