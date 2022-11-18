@@ -20,6 +20,11 @@ body {
     margin-top: 20px;
 }
 
+.generator:hover{
+    background-color: #6ee7b7;
+    cursor: pointer;
+}
+
 .passwords {
     display: flex;
     justify-content: space-evenly;
@@ -35,4 +40,9 @@ body {
     border: none;
     border-radius: 5px;
     color: #14B981;
+}
+
+#first-password:hover, #second-password:hover {
+    background-color: #6b7280;
+    cursor: pointer;
 }
