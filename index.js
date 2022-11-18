@@ -19,11 +19,9 @@ function generatePasswords() {
 function copyFirstText() {
     let firstPasswordContent = firstPasswordEl.innerText;
     navigator.clipboard.writeText(firstPasswordContent);
-    alert("Copied the password to clipboard");
 }
 
 function copySecondText() {
     let secondPasswordContent = secondPasswordEl.innerText;
     navigator.clipboard.writeText(secondPasswordContent);
-    alert("Copied the password to clipboard");
 }
