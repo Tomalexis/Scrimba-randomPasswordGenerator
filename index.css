@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: black;
+    color: white
+}
+
+.box {
+    background-color: #1F2937;
+    margin: 20px auto;
+    padding: 80px 20px;
+    width: 400px;
+}
+
+.generator {
+    background-color: #14B981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-top: solid 1px #496d7e; 
+}
+
+#first-password, #second-password {
+    background-color: #273549;
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #14B981;
+}div clasd
